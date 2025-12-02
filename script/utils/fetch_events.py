@@ -3,7 +3,7 @@ from web3 import Web3
 # from web3.middleware import geth_poa_middleware
 
 # Replace with your Infura project ID or your local node URL
-infura_url = "https://arb-mainnet.g.alchemy.com/v2/e3nMHrnIg6XHvR2tOsZ4y3S88ZbW4Ljk"
+infura_url = "$RPC_URL"
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # If you're using a testnet like Ropsten, Rinkeby, or Goerli, you may need to add the Geth POA middleware
